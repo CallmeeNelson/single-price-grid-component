@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&display=swap');
+body {
+    background-color: aliceblue;
+    font-family: 'Karla', sans-serif;
+    width: 1440px;
+}
+.container {
+    width: 600px;
+    height: 450px;
+    /* background-color: rgb(205, 207, 203); */
+    align-items: center;
+    position: relative;
+    display:block;
+    top: 100px;
+    left: 340px;
+}
+.text-container {
+    background-color: white;
+    width: 570px;
+    height: 190px;
+    top: 0%;
+    padding: 27px;
+    border-radius: 8px 8px 0px 0px;
+
+
+}
+.dual-container {
+    display:flex;
+    width: 625px;
+    
+    
+}
+#left #right {
+    display: flex;
+}
+#left {
+    width: 285px;
+    height: 250px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 27px;
+}
+#right {
+    width: 285px;
+    height: 250px;
+    background-color: hsl(179, 42%, 58%);
+    padding: 27px;
+    line-height: 15px;
+}
+#one {
+    color: hsl(179, 62%, 43%);
+    font-size:larger;
+    font-weight: bold;
+}
+#two {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    font-size: large;
+}
+#three {
+    color: hsl(218, 22%, 67%);
+    font-size: medium;
+    line-height: 33px;
+    white-space:pre-line;
+}
+#subscription {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+#price {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#month {
+    float: right;
+    position: relative;
+    bottom: 33%;
+    right: 39%;
+    font-weight: normal;
+    font-size: large;
+    color: hsl(203, 45%, 90%);
+}
+#access {
+    font-size: smaller;
+    color: white;
+    white-space: nowrap;
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    width:100%;
+    height: 40px;
+    color: white;
+    border-radius: 8px 8px 8px 8px;
+}
+#header {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+p {
+    color: white;
+    font-size: small;
+    }
+    /* .attribution {
+        position: relative;
+        color: azure;
+        word-spacing: 3px;
+    } */
